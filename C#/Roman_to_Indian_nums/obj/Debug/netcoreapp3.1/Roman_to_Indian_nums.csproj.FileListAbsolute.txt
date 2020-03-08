@@ -1,0 +1,11 @@
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\bin\Debug\netcoreapp3.1\Roman_to_Indian_nums.exe
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\bin\Debug\netcoreapp3.1\Roman_to_Indian_nums.deps.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\bin\Debug\netcoreapp3.1\Roman_to_Indian_nums.runtimeconfig.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\bin\Debug\netcoreapp3.1\Roman_to_Indian_nums.runtimeconfig.dev.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\bin\Debug\netcoreapp3.1\Roman_to_Indian_nums.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\bin\Debug\netcoreapp3.1\Roman_to_Indian_nums.pdb
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\obj\Debug\netcoreapp3.1\Roman_to_Indian_nums.csprojAssemblyReference.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\obj\Debug\netcoreapp3.1\Roman_to_Indian_nums.AssemblyInfoInputs.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\obj\Debug\netcoreapp3.1\Roman_to_Indian_nums.AssemblyInfo.cs
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\obj\Debug\netcoreapp3.1\Roman_to_Indian_nums.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Roman_to_Indian_nums\obj\Debug\netcoreapp3.1\Roman_to_Indian_nums.pdb

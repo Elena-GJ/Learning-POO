@@ -1,0 +1,11 @@
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\bin\Debug\netcoreapp3.1\BeginnerConsoleGame.exe
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\bin\Debug\netcoreapp3.1\BeginnerConsoleGame.deps.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\bin\Debug\netcoreapp3.1\BeginnerConsoleGame.runtimeconfig.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\bin\Debug\netcoreapp3.1\BeginnerConsoleGame.runtimeconfig.dev.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\bin\Debug\netcoreapp3.1\BeginnerConsoleGame.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\bin\Debug\netcoreapp3.1\BeginnerConsoleGame.pdb
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\obj\Debug\netcoreapp3.1\BeginnerConsoleGame.csprojAssemblyReference.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\obj\Debug\netcoreapp3.1\BeginnerConsoleGame.AssemblyInfoInputs.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\obj\Debug\netcoreapp3.1\BeginnerConsoleGame.AssemblyInfo.cs
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\obj\Debug\netcoreapp3.1\BeginnerConsoleGame.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\BeginnerConsoleGame\obj\Debug\netcoreapp3.1\BeginnerConsoleGame.pdb

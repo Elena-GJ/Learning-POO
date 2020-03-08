@@ -1,0 +1,11 @@
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\obj\Debug\netcoreapp3.1\Display of a number.csprojAssemblyReference.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\obj\Debug\netcoreapp3.1\Display of a number.AssemblyInfoInputs.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\obj\Debug\netcoreapp3.1\Display of a number.AssemblyInfo.cs
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\bin\Debug\netcoreapp3.1\Display of a number.exe
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\bin\Debug\netcoreapp3.1\Display of a number.deps.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\bin\Debug\netcoreapp3.1\Display of a number.runtimeconfig.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\bin\Debug\netcoreapp3.1\Display of a number.runtimeconfig.dev.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\bin\Debug\netcoreapp3.1\Display of a number.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\bin\Debug\netcoreapp3.1\Display of a number.pdb
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\obj\Debug\netcoreapp3.1\Display of a number.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\Display of a number\obj\Debug\netcoreapp3.1\Display of a number.pdb

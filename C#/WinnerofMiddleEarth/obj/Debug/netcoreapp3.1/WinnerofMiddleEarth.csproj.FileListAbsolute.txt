@@ -1,0 +1,11 @@
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\bin\Debug\netcoreapp3.1\WinnerofMiddleEarth.exe
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\bin\Debug\netcoreapp3.1\WinnerofMiddleEarth.deps.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\bin\Debug\netcoreapp3.1\WinnerofMiddleEarth.runtimeconfig.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\bin\Debug\netcoreapp3.1\WinnerofMiddleEarth.runtimeconfig.dev.json
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\bin\Debug\netcoreapp3.1\WinnerofMiddleEarth.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\bin\Debug\netcoreapp3.1\WinnerofMiddleEarth.pdb
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\obj\Debug\netcoreapp3.1\WinnerofMiddleEarth.csprojAssemblyReference.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\obj\Debug\netcoreapp3.1\WinnerofMiddleEarth.AssemblyInfoInputs.cache
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\obj\Debug\netcoreapp3.1\WinnerofMiddleEarth.AssemblyInfo.cs
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\obj\Debug\netcoreapp3.1\WinnerofMiddleEarth.dll
+C:\Users\garji\OneDrive - UNED\Lenguajes de programación\C#\WinnerofMiddleEarth\obj\Debug\netcoreapp3.1\WinnerofMiddleEarth.pdb
