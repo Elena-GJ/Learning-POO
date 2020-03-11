@@ -1,76 +1,104 @@
 package app;
 import java.util.Scanner;
 
-public class Time{
+public class Time {
     // Declare variables
     private int second = 0;
     private int minute = 0;
     private int hour = 0;
     Scanner input = new Scanner(System.in);
-    
+
     // Constructor
-    public Time(int second, int minute, int hour) {
-        this.second = second;
-        this.minute = minute;
-        this.hour = hour;
+    public Time() {
+        this.setSecond();
+        this.setMinute();
+        this.setHour();
     }
 
-    //Getters
-    public int getHour(){
+    // Getters
+    public int getHour() {
         return hour;
     }
-    public int getMinute(){
+
+    public int getMinute() {
         return minute;
     }
-    public int getSecond(){
+
+    public int getSecond() {
         return minute;
     }
 
     // Setters
-    public void setHour(int hour){
-        while (hour > 23 || hour < 0){
-            System.out.println("Introduzca una hora menor a 24 h: ");
-            this.hour = input.nextInt();
+    public void setHour(){
+        this.hour = -1;
+        if(hour <= 23 && hour >= 0){
+            ;
+        } else {
+            while (!(hour <= 23) | !(hour >= 0)){
+                try{
+                    System.out.println("Introduzca una hora válida: ");
+                    this.hour = input.nextInt();
+                } catch (Exception e) {
+                    System.out.println("Hora no válida.");
+                }
+            }
         }
-        this.hour = hour;
     }
-    public void setMinute(int minute){
-        while (minute > 60 || minute < 0){
-            System.out.println("Introduzca un minuto menor a 60 min: ");
-            this.minute = input.nextInt();
+
+    public void setMinute() {
+        this.minute = -1;
+        if(minute <= 59 && minute >= 0){
+            ;
+        } else {
+            while (!(minute <= 59) | !(minute >= 0)){
+                try{
+                    System.out.println("Introduzca unos minutos válidos: ");
+                    this.minute = input.nextInt();
+                } catch (Exception e) {
+                    System.out.println("Minutos no válidos.");
+                }
+            }
         }
-        this.minute = minute;
     }
-    public void setSecond(int second){
-        while (second > 60 || second < 0){
-            System.out.println("Introduzca un minuto menor a 60 min: ");
-            this.second = input.nextInt();
+
+    public void setSecond() {
+        this.second = -1;
+        if(second <= 59 && second >= 0){
+            ;
+        } else {
+            while (!(second <= 59) | !(second >= 0)){
+                try{
+                    System.out.println("Introduzca unos minutos válidos: ");
+                    this.second = input.nextInt();
+                } catch (Exception e) {
+                    System.out.println("Minutos no válidos.");
+                }
+            }
         }
-        this.second = second;
     }
 
     // To String method
-    public String hourString(){
+    public String hourString() {
         return String.format("%02d:%02d:%02d", this.hour, this.minute, this.second);
     }
 
     // setTime method
-    public void setTime(int hour, int minute, int second){
-        setHour(hour);
-        setMinute(minute);
-        setSecond(second);
+    public void setTime() {
+        setHour();
+        setMinute();
+        setSecond();
     }
 
     // nextSecond method
-    public Time nextSecond(){
+    public Time nextSecond() {
         this.second += 1;
-        if(this.second == 60){
+        if (this.second == 60) {
             this.second = 0;
             this.minute += 1;
-            if(this.minute == 60){
+            if (this.minute == 60) {
                 this.minute = 0;
                 this.hour += 1;
-                if(this.hour == 24){
+                if (this.hour == 24) {
                     this.hour = 0;
                 }
             }
