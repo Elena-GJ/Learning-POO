@@ -1,5 +1,4 @@
 package app;
-import jdk.nashorn.internal.runtime.regexp.RegExpMatcher;
 
 public class Author{
     // Variables
@@ -8,10 +7,10 @@ public class Author{
     private String gender;
 
     // Constructor
-    public Author(String name, String email, String gender){
-        setName(name);
-        setEmail(email);
-        setGender(gender);
+    public Author(final String name, final String email, final String gender){
+        this.name = name;
+        this.email = email;
+        this.gender = gender;
     }
 
     // Getters
@@ -26,32 +25,14 @@ public class Author{
     }
 
     // Setters
-    public void setName(String name){
-        while(name != matcher("([a-zA-Z]+\n)[a-zA-Z]+")){
-            try {
-                this.name = name;
-            } catch (Exception e) {
-                System.out.println("Name must be a string.");
-            }
-        }
+    public void setName(final String name){        
+        this.name = name;
     }
-    public void setEmail(String email){
-        while(email != matcher("[a-z]+@[a-z]+.[a-z]+")){
-            try {
-                this.email = email;
-            } catch (Exception e) {
-                System.out.println("The format of the email must be: direction@domain.whateverhere");
-            }
-        }
+    public void setEmail(final String email){
+        this.email = email;
     }
-    public void setGender(String gender){
-        while(gender != 'm' || gender != 'f'){
-            try {
-                this.gender = gender;
-            } catch (Exception e) {
-                System.out.println("The gender must be m (masc) or f (fem)");
-            }
-        }
+    public void setGender(final String gender){
+        this.gender = gender;
     }
 
     // toString modificado

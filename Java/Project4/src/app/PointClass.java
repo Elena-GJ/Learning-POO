@@ -11,8 +11,8 @@ public class PointClass{
 
     // Constructors
     public void Point(){
-        setX();
-        setY();
+        this.x = input.nextDouble();
+        this.y = input.nextDouble();
     }
 
     // Getters
