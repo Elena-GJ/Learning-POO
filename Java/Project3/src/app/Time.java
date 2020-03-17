@@ -68,10 +68,10 @@ public class Time {
         } else {
             while (!(second <= 59) | !(second >= 0)){
                 try{
-                    System.out.println("Introduzca unos minutos válidos: ");
+                    System.out.println("Introduzca unos segundos válidos: ");
                     this.second = input.nextInt();
                 } catch (Exception e) {
-                    System.out.println("Minutos no válidos.");
+                    System.out.println("Segundos no válidos.");
                 }
             }
         }
