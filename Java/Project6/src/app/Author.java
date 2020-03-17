@@ -36,7 +36,7 @@ public class Author{
     }
 
     // toString modificado
-    public String authorToString(){
+    public String toString(){
         return this.name + " (" + this.gender + ") at " + this.email;
     }
 }
