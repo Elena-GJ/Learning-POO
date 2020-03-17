@@ -25,7 +25,7 @@ public class Time {
     }
 
     public int getSecond() {
-        return minute;
+        return second;
     }
 
     // Setters

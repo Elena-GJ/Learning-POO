@@ -1,7 +1,7 @@
 package app;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Time time1 = new Time();
         System.out.println(time1.hourString());
         time1.setHour();
