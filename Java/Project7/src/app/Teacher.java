@@ -33,11 +33,11 @@ public class Teacher extends Person{
             }
             // If there is no coincidence, append course
             if(courseExist == false){
+                System.out.println("Course appended");
                 courses[numCourses] = course;
+                numCourses++;
             }
         }
-        // Augment counter for courses and return bool
-        numCourses++;
         return courseExist;
     }
     public boolean removeCourse(String course){
@@ -54,11 +54,12 @@ public class Teacher extends Person{
                 // If coincidence, not incorporate it
                 i--;
                 coincidence = true;
+                System.out.println("Course removed! :)");
             }
             i++;
         }
         courses = courses_prime;
-        // If course was not fount, print message
+        // If course was not found, print message
         if(coincidence == false){
             System.out.println("Course does not exist!");
         }

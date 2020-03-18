@@ -2,7 +2,7 @@ package app;
 
 public class App {
     public static void main(String[] args) {
-        /* Test Student class */
+      /* Test Student class */
       Student s1 = new Student("Tan Ah Teck", "1 Happy Ave");
       s1.addCourseGrade("IM101", 97);
       s1.addCourseGrade("IM102", 68);
@@ -17,21 +17,11 @@ public class App {
       //Teacher: Paul Tan(8 sunset way)
       String[] courses = {"IM101", "IM102", "IM101"};
       for (String course: courses) {
-         if (t1.addCourse(course)) {
-            System.out.println(course + " added");
-         } else {
-            System.out.println(course + " cannot be added");
-         }
+         t1.addCourse(course);
       }
-      //IM101 added
-      //IM102 added
-      //IM101 cannot be added
+
       for (String course: courses) {
-         if (t1.removeCourse(course)) {
-            System.out.println(course + " removed");
-         } else {
-            System.out.println(course + " cannot be removed");
-         }
+         t1.removeCourse(course);
       }
       //IM101 removed
       //IM102 removed

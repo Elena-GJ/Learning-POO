@@ -17,12 +17,12 @@ public class Student extends Person {
 
     // Other methods
     public void addCourseGrade(final String course, final int grade){
-        numCourses++;  // Interesante forma de ir aumentando el índice, fuera de un bucle for también se puede hacer esto
         if(numCourses >= max){
             System.out.println("Maximum number of courses reached!");
         }else{
-        courses[numCourses - 1] = course;
-        grades[numCourses - 1] = grade;
+        courses[numCourses] = course;
+        grades[numCourses] = grade;
+        numCourses++;  // Interesante forma de ir aumentando el índice, fuera de un bucle for también se puede hacer esto
         }
     }
     public void printGrades(){
