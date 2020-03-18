@@ -11,4 +11,9 @@ public class B extends A {
     public int getNumber2() {
         return number2;
     }
+
+    @Override
+    public String getNumber1() {
+        return number2.Parse();
+    }
 }
