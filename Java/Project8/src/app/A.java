@@ -7,7 +7,7 @@ public class A {
         this.number1 = number1;
     }
 
-    // must have the same signature
+    @Override
     public int getNumber1() {
         return number1;
     }
