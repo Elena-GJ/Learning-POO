@@ -12,8 +12,8 @@ public class B extends A {
         return number2;
     }
 
-    @Override
-    public String getNumber1() {
-        return number2.Parse();
+    @Override  // must have the same signature
+    public int getNumber1() {
+        return number2;
     }
 }
