@@ -2,6 +2,7 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        // Shape s2 = new Shape(); // Error because you cannot instantiate objects of an abstract class with their constructor :)
         Shape s3 = new Rectangle("RED", false, 1.0, 2.0); // Upcast
         System.out.println(s3);
         System.out.println(s3.getArea()); // Returns the value of getArea defined at the rectangle class
