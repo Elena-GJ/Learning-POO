@@ -18,18 +18,18 @@ public class MovablePoint implements Movable{
     }
 
     public void moveUp(){
-        y++;
+        y+=ySpeed;
     }
 
     public void moveDown(){
-        y--;
+        y-=ySpeed;
     }
 
     public void moveRight(){
-        x++;
+        x+=xSpeed;
     }
 
     public void moveLeft(){
-        x--;
+        x-=xSpeed;
     }
 }
