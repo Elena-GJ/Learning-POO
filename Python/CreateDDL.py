@@ -30,14 +30,17 @@ columnDelimiter = input("Introduce el caracter separador de columnas: ")
 csvFile = open(csvFileName, 'r')
 csvFileReader = csv.reader(csvFile, delimiter = rowDelimiter, quotechar = columnDelimiter)
 for row in csvFileReader:
-    newFile.write("    " + row[0][0] + " VARCHAR" + "," + "\n")
+    newFile.write("    ")
+    for char in row[0]:
+        newFile.write(char)
+    newFile.write(" VARCHAR" + "," + "\n")
 
 # Determine PKs
-newFile.write("PRIMARY KEY ()")
+newFile.write("PRIMARY KEY ()" + ",\n")
 
 # Rows and columns
-newFile.write("ROW FORMAT DELIMITED")
-newFile.write("FIELDS TERMINATED BY '" + columnDelimiter + ");")
+newFile.write("ROW FORMAT DELIMITED" + ",\n")
+newFile.write("FIELDS TERMINATED BY '" + columnDelimiter + "');")
 
 # Close the file once modified
 newFile.close()
