@@ -1,0 +1,19 @@
+-- To navigate through the console
+
+cd: change the directory.
+	"./" denotes the current directory
+	"../" denotes the previous directory
+
+clear: clear all the cmd
+
+dir: shows the current directory
+
+ls: lists all the folders and items avaliables whithin a directory
+
+mkdir: makes a new folder in the current directory, with the name you give to it
+
+rm: remove a file or folder with that name in the directory
+
+tree.com: shows all the folders and subfolders of the current directory
+
+unzip: unzip a the indicated file in that directory
