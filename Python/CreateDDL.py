@@ -17,7 +17,7 @@ fileExists = os.path.isfile(path)
 if fileExists:
     print("El archivo ya existe")
 else:
-    newFile = open(newFileName + ".ddl", "x")
+    newFile = open(newFileName + ".ddl", "x", encoding='utf8')
 
 # Introduce header
 newFile.write("DROP TABLE IF EXISTS " + newFileName + ";\n")
@@ -27,12 +27,14 @@ newFile.write("CREATE TABLE IF NOT EXISTS " + newFileName + "(" + "\n")
 csvFileName = "Columnas.csv"
 rowDelimiter = "\n"
 columnDelimiter = input("Introduce el caracter separador de columnas: ")
-csvFile = open(csvFileName, 'r')
+csvFile = open(csvFileName, 'r', encoding='utf8')
 csvFileReader = csv.reader(csvFile, delimiter = rowDelimiter, quotechar = columnDelimiter)
 for row in csvFileReader:
     newFile.write("    ")
     for char in row[0]:
-        newFile.write(char)
+        if char == " ":
+            char = "_"
+        newFile.write(char.upper())
     newFile.write(" VARCHAR" + "," + "\n")
 
 # Determine PKs
