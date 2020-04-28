@@ -12,7 +12,7 @@ if not os.path.exists(path):
 os.chdir(path)
 
 # Create the DLL file and open it for editing
-newFileName = input("Introduce el nombre de la DDL con nomenclatura ZettaBeat: ")
+newFileName = input("Introduce el nombre de la DDL con la nomenclatura correspondiente: ")
 fileExists = os.path.isfile(path)
 if fileExists:
     print("El archivo ya existe")
