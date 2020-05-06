@@ -20,7 +20,7 @@ else:
     newFile = open(newFileName + ".ddl", "x", encoding='utf8')
 
 # Introduce header
-newFile.write("DROP TABLE IF EXISTS " + newFileName + ";\n")
+# newFile.write("DROP TABLE IF EXISTS " + newFileName + ";\n")
 newFile.write("CREATE TABLE IF NOT EXISTS " + newFileName + "(" + "\n")
 
 # Introduce body with columns
