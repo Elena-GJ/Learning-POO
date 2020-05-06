@@ -32,17 +32,15 @@ csvFileReader = csv.reader(csvFile, delimiter = rowDelimiter, quotechar = column
 for row in csvFileReader:
     newFile.write("    ")
     for char in row[0]:
-        if char == " ":
-            char = "_"
         newFile.write(char.upper())
-    newFile.write(" STRING" + "," + "\n")
+    newFile.write("," + "\n")
 
 # Determine PKs
-newFile.write("PRIMARY KEY ()" + "DISABLE NOVALIDATE)\n")
+newFile.write("PRIMARY KEY () " + "DISABLE NOVALIDATE)\n")
 
 # Rows and columns
 newFile.write("ROW FORMAT DELIMITED" + "\n")
-newFile.write("FIELDS TERMINATED BY '" + columnDelimiter + "' + ESCAPED BY '\\\\'\n")
+newFile.write("FIELDS TERMINATED BY '" + columnDelimiter + "' ESCAPED BY '\\\\'\n")
 newFile.write("STORED AS PARQUET LOCATION '';")
 
 # Close the file once modified
